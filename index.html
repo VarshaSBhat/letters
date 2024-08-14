@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letters to Anisha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Letters to Anisha</h1>
+            <p>A place for friends and family to share their thoughts, memories, and well-wishes for Anisha.</p>
+            <a href="#submit-letter" class="button">Write a Letter</a>
+        </header>
+
+        <section id="letters-section">
+            <h2>Letters for Anisha</h2>
+            <div id="letters-list">
+                <!-- Letters will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <section id="submit-letter">
+            <h2>Submit a Letter</h2>
+            <form id="letter-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="message">Your Letter:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit Letter</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
